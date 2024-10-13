@@ -16,10 +16,9 @@ html{
 .navbar
 
 
-.navbar a{
-  color: white;
-  font-size: 22px;
-  transition: all .5s;
+.navbar a.nav-link{
+  color: white!important;
+ 
 }
 
 .navbar a:hover{
@@ -29,7 +28,7 @@ html{
 }
 @media (max-width:768px){
   .navbar a:hover{
-    
+    color: white;
     transform:  translateX(20px);
   }
 }
@@ -40,6 +39,11 @@ html{
     padding: 0;
     font-weight: 600;
     letter-spacing: 1px;
+}
+.navbar .bg-link{
+  color: white!important  ;
+  font-size: 22px;
+  transition: all .5s;
 }
 .dropdown .dropdown-toggle{
   color: white !important;
